@@ -1,0 +1,117 @@
+{
+  "n_tracks": 192,
+  "n_degenerate": 0,
+  "grid_pass_fraction": 0.7291666666666666,
+  "grid_pass_ci_lo_bootstrap": 0.671875,
+  "grid_pass_ci_hi_bootstrap": 0.7865885416666666,
+  "grid_pass_ci_lo_wilson": 0.6622707512278603,
+  "grid_pass_ci_hi_wilson": 0.7870723068248773,
+  "decision_threshold": 0.5,
+  "chance_bar_fraction": 0.257,
+  "chance_seam_gap": 0.34,
+  "chance_both": 0.088,
+  "mean_bpm_error_rel": 0.1791729597020406,
+  "mean_bpm_error_rel_oct_corrected": 0.048760054005727436,
+  "median_bpm_error_rel": 0.0017961008997831231,
+  "by_bpm": {
+    "80": {
+      "n": 24,
+      "grid_pass_fraction": 0.7916666666666666,
+      "grid_pass_ci_lo": 0.625,
+      "grid_pass_ci_hi": 0.9583333333333334,
+      "n_degenerate": 0,
+      "mean_bpm_error_rel": 0.7864688741667702,
+      "median_bar_fraction_error": 0.006552577701201656,
+      "median_seam_gap_beat_error": 0.02621031080480376
+    },
+    "90": {
+      "n": 24,
+      "grid_pass_fraction": 0.6666666666666666,
+      "grid_pass_ci_lo": 0.4989583333333334,
+      "grid_pass_ci_hi": 0.8333333333333334,
+      "n_degenerate": 0,
+      "mean_bpm_error_rel": 0.2862272471700151,
+      "median_bar_fraction_error": 0.00989822049444733,
+      "median_seam_gap_beat_error": 0.03959288197779127
+    },
+    "100": {
+      "n": 24,
+      "grid_pass_fraction": 0.5,
+      "grid_pass_ci_lo": 0.2916666666666667,
+      "grid_pass_ci_hi": 0.7083333333333334,
+      "n_degenerate": 0,
+      "mean_bpm_error_rel": 0.061537017050693914,
+      "median_bar_fraction_error": 0.02446123581612758,
+      "median_seam_gap_beat_error": 0.041391231903937675
+    },
+    "110": {
+      "n": 24,
+      "grid_pass_fraction": 0.8333333333333334,
+      "grid_pass_ci_lo": 0.6666666666666666,
+      "grid_pass_ci_hi": 0.9583333333333334,
+      "n_degenerate": 0,
+      "mean_bpm_error_rel": 0.0861928817683107,
+      "median_bar_fraction_error": 0.009164699327451231,
+      "median_seam_gap_beat_error": 0.036658797309804585
+    },
+    "120": {
+      "n": 24,
+      "grid_pass_fraction": 0.875,
+      "grid_pass_ci_lo": 0.75,
+      "grid_pass_ci_hi": 1,
+      "n_degenerate": 0,
+      "mean_bpm_error_rel": 0.057450591396537264,
+      "median_bar_fraction_error": 0.00700237684671734,
+      "median_seam_gap_beat_error": 0.0280095073868685
+    },
+    "130": {
+      "n": 24,
+      "grid_pass_fraction": 0.7083333333333334,
+      "grid_pass_ci_lo": 0.5,
+      "grid_pass_ci_hi": 0.875,
+      "n_degenerate": 0,
+      "mean_bpm_error_rel": 0.02546870546633072,
+      "median_bar_fraction_error": 0.017295026337966313,
+      "median_seam_gap_beat_error": 0.06918010535186436
+    },
+    "140": {
+      "n": 24,
+      "grid_pass_fraction": 0.7916666666666666,
+      "grid_pass_ci_lo": 0.625,
+      "grid_pass_ci_hi": 0.9583333333333334,
+      "n_degenerate": 0,
+      "mean_bpm_error_rel": 0.05648475608402321,
+      "median_bar_fraction_error": 0.009055310817426943,
+      "median_seam_gap_beat_error": 0.036221243269708964
+    },
+    "160": {
+      "n": 24,
+      "grid_pass_fraction": 0.6666666666666666,
+      "grid_pass_ci_lo": 0.4583333333333333,
+      "grid_pass_ci_hi": 0.8333333333333334,
+      "n_degenerate": 0,
+      "mean_bpm_error_rel": 0.07355360451364373,
+      "median_bar_fraction_error": 0.010860273546784427,
+      "median_seam_gap_beat_error": 0.043441094187140705
+    }
+  },
+  "above_chance_both": true,
+  "above_decision_threshold": true,
+  "config": {
+    "n_bars": 8,
+    "beats_per_bar": 4,
+    "bpm_grid": [
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140,
+      160
+    ],
+    "n_tracks_per_cell": 24,
+    "seed_base": 2026092000,
+    "model": "stable_audio_3_small_music"
+  }
+}

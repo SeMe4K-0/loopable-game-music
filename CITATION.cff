@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the paper and this repository."
+title: "Loopable Game Music: Code and Data for the Evaluation of Generated Background Music for Computer Games"
+type: software
+authors:
+  - family-names: Davshits
+    given-names: Semyon A.
+  - family-names: Loseva
+    given-names: Svetlana S.
+repository-code: "https://github.com/SeMe4K-0/loopable-game-music"
+preferred-citation:
+  type: article
+  title: "Оценка и подготовка сгенерированной фоновой музыки для компьютерных игр"
+  authors:
+    - family-names: Davshits
+      given-names: Semyon A.
+    - family-names: Loseva
+      given-names: Svetlana S.

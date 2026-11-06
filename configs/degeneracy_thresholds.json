@@ -1,0 +1,11 @@
+{
+ "peak_dbfs_min": -40.0,
+ "silent_frac_max": 0.06731122032627428,
+ "spectral_flatness_max": 0.042474482953548345,
+ "spectral_flux_min": 1.5133896827697755,
+ "_calibration": {
+  "n_reference": 1373,
+  "percentile": 1.0,
+  "note": "dynamic_range_db и onset_rate_hz пишутся в отчёт, но в правило не входят"
+ }
+}
